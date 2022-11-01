@@ -1,0 +1,137 @@
+h2{
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+}
+h1{
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+h4{ 
+  color: #ff8a8a;
+  font-family: 'Roboto Mono', monospace;
+}
+
+label{
+  font-family: 'Roboto Mono', monospace;
+  margin: 5px;
+}
+form{
+  background-color: #415A77;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  margin: 30px auto;
+  padding-bottom:30px;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #D5bbb1;
+}
+
+img {
+  height: 120px;
+  width:180px;
+   border: black solid 2px;
+  margin: 5px;
+}
+
+.row1 {
+   display: flex;
+  justify-content: space-around;
+
+}
+.row2{
+  display: flex;
+  justify-content: space-between;
+  margin-left:30px;
+  margin-right:30px;
+}
+
+.exposed {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #415A77; 
+  display: block; 
+}
+
+
+.companies {
+  color: #415A77;
+  font-size: 20px;
+  margin-top: 30px; 
+} 
+
+.nav{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.nav li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 10px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.nav li a:hover{
+  background: #fff; 
+  color: #333; 
+}
+
+.ii{
+  border-radius: 50%; 
+  height: 300px;
+  width:300px;
+}
+ .one1 {
+   display:block; 
+} 
+.one {
+  display:inline;
+}
+
+.homeImage {
+  border-radius: 50%;
+}
+iframe {
+  width:
+  height: 400px;
+}
+
+.jj{
+  display: flex;
+  justify-content: center;
+  font-size:40px;
+  font-family:'Roboto', sans-serif;
+  font-weight: 100;
+  color:#904E55
+}
+
+label {
+  color: white;
+  font-size: 20px;
+}
+
+.button{
+  background-color: white; 
+  color: black; 
+  border: black; 
+  font-size: 20px;
+  border-radius:25px;
+  
+}
+
+button:hover{
+  background-color: transparent; 
+  color: white; 
+}

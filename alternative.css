@@ -1,0 +1,82 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color:  #D5bbb1;
+}
+
+img {
+  height: 120px;
+  width:180px;
+   border: black solid 2px;
+  margin: 5px;
+}
+
+div {
+   display: flex;
+  justify-content: space-around;
+
+}
+
+.exposed {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #415A77; 
+  display: block; 
+}
+
+
+.companies {
+  color: #415A77;
+  font-size: 20px;
+  margin-top: 30px; 
+} 
+
+.nav{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.nav li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 10px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.nav li a:hover{
+  background: #fff; 
+  color: #333; 
+}
+
+.ii{
+  border-radius: 50%; 
+  height: 300px;
+  width:300px;
+}
+.one1 {
+  display:block;
+}
+.one {
+  display:inline;
+}
+
+.homeImage {
+  border-radius: 50%;
+}
+
+h1 {
+  text-shadow: 5px;
+}
+
+.ll {
+  display:flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 110px;
+  margin:100px;
+}
